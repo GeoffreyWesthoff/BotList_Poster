@@ -6,16 +6,22 @@
 
 `post_bfd(bot_id, token, guild_count)`
 Posts to botsfordiscord.com
+
 `post_dbl(bot_id, token, guild_count, shard_id, shard_count)`
 Posts to discordbots.org. shard_id and shard_count are optional
+
 `post_botlistspace(bot_id, token, guild_count)`
 Posts to botlist.space
+
 `post_discordpw(bot_id, token, guild_count, shard_id, shard_count)`
 Posts to bots.discord.pw. shard_id and shard_count are optional
+
 `post_terminal(bot_id, token, guild_count)`
 Posts to ls.terminal.ink.
+
 `post_discordservices(bot_id, token, guild_count)`
 Posts to discord.services.
+
 `post_all(bot_id, guild_count, shard_count, shard_id, dbl_token, botspw_token, botlistspace_token, terminal_token, bfd_token, discordservices_token)`
 Posts to all of the above botlists. Only 1 token has to be included at least. shard_count and shard_id are optional.
 
